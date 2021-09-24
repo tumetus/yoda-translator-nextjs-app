@@ -50,7 +50,7 @@ export default function YodaApp() {
   return (
     <div style={styles.app}>
       <h1>The ultimate Yoda Translator Application</h1>
-      <p>Input your text in English and you will get a translation in Yoda.</p>
+      <p>Input your text in English and you will get a translation in Yoda!!</p>
       <label style={styles.label}>English</label>
       <br/>
       <input type="text" value={text} onChange={ e => setText(e.target.value)} style={styles.textInput} placeholder="Type your text here..."/>
